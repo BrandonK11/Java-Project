@@ -11,7 +11,9 @@ public class CompanyApp {
 	public static void main(String[] args) throws Exception{
 
         
-		
+		System.out.println("My Company by B. Karimi");
+	    System.out.println();
+		System.out.println("Production Worker:");
         
 		ProductionWorker worker = new ProductionWorker(1, 20.75, "Joe", "001-h", "02-31-2017");
         new EmployeeId(worker.getEmployeeNumber());
